@@ -1,0 +1,49 @@
+<!-- index.html (pagina home con barra di navigazione) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    /* Stile per la barra di navigazione */
+    nav {
+      background-color: #87CEEB; /* Azzurrino chiaro */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      display: flex;
+      justify-content: flex-start; /* Barra sulla sinistra */
+      width: 33%; /* Ridotto a un terzo della larghezza */
+      border-radius: 10px; /* Angoli smussati */
+      font-family: 'Courier New', Courier, monospace; /* Cambiato il font a Courier New */
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0;
+      padding: 8px 15px; /* Spaziatura interna ai bottoni */
+      border-radius: 5px; /* Angoli arrotondati */
+      transition: background-color 0.3s ease; /* Effetto transizione colore di sfondo */
+      flex: 1; /* Flessibilità per occupare lo spazio disponibile in modo equo */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    nav a:hover {
+      background-color: #5F9EA0; /* Cambia colore al passaggio del mouse */
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra di navigazione -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="register.html">Registrati</a>
+    <a href="login.html">Login</a>
+  </nav>
+</body>
+</html>
+
